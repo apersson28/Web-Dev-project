@@ -1,0 +1,131 @@
+/*
+Creator: Alec Persson
+Date created: 1/16/2019
+Date last modified:
+*/
+body {
+    background-color: #FFE4C4;
+    font-family: sans-serif;
+    color: #0d1f2d;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header, footer {
+    background-color: #5b7d87;
+    color: #fef9ff;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+header {
+    height: 120px;
+}
+footer {
+    height: 150px;
+}
+h1 {
+    font-size: 2.5em;
+}
+.jumbotron {
+    background: transparent;
+}
+nav {
+    border-top: 3px solid #546a7b;
+    border-bottom: 3px solid #546a7b;
+    margin-top: 4px;
+}
+
+nav a {
+    background-color: #5b7d87;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    min-width: 80px;
+    float: left;
+}
+nav a:visited {
+    color: #e4c3ad;
+}
+nav a:hover {
+    font-weight: bold;
+    background-color: #fef9ff;
+    color: #5b7d87;}
+nav a:active {
+    font-weight: bold;
+}
+
+nav ul  {
+    list-style-type: none;
+    padding-left:none;
+}
+nav ul li {
+    outline-style: none;
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+       caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+        
+        ul {
+            color:white;
+            text-align: center;
+            font-family: sans-serif;
+            background:#A0522D	;
+            padding: 20px;
+                }
+
+        ul li {
+            margin: 1px;
+                }
+           img {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+          table, th, td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 60px;
+            font-family: sans-serif
+        }
+        table {
+            margin: auto;
+        }
+        th {
+            background-color: #546a7b;
+            color: #f2eded;
+        }
+        tr:nth-child(odd) {
+            background-color: #A0522D;
+        }
+article#menu ul {
+    list-style-type: none;
+}
+
+@media (max-width: 768px) { 
+    nav ul li {
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav ul li a {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+        ul.nav.nav-pills {
+            padding-right:0;
+    }
+}
+.carousel('cycle')
+
