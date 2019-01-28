@@ -12,7 +12,7 @@ Most recent revision: 1/13/2019
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cool Beans Coffee</title>
     <!-- Bootstrap CSS --> 
-    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
     <!-- My CSS -->
@@ -21,7 +21,6 @@ Most recent revision: 1/13/2019
     </head>
     <style>
         
-      
         
         caption {
             font-weight: bold;
@@ -53,15 +52,23 @@ Most recent revision: 1/13/2019
             margin-left: auto;
             margin-right: auto;
             width: 50%;
-       
         }
-    
+        .my-container {
+            border: 1px solid white;
+        }
+        .my-row {
+            border: 3px solid brown;
+        }
+        .my-col {
+           border: 3px dotted blue; 
+        }
     </style>
 
     <body>
         <main> </main>
-        <header><h1><FONT FACE="helvetica">Cool Beans Coffee</FONT></h1></header>
-        
+        <div class="container-fluid">
+        <header><h1><FONT FACE="helvetica">Cool Beans Coffee</FONT></h1></header></div>
+        <div class="col-lg">
         <nav>
             <ul class="nav nav-pills">
                 <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i></a></li> 
@@ -71,23 +78,28 @@ Most recent revision: 1/13/2019
             <div class="clear-float"></div>
            
         </nav>
+            </div>
         
         <noscript>
     <div class="error message">
         We're sorry but our site <strong>requires</strong> JavaScript.
     </div>    
 </noscript>
+        <div class="container-fluid">
            <div class="jumbotron">
   <h1 class="display-4">Hello coffee lovers!</h1>
   <p class="lead">We are proud and excited to announce that Cool Beans Coffee is opening a new location in Denver, Colorado</p>
   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 </div>
-        
-        <section>
+            </div>
+        <div class="container-fluid">
+    
             
              <img src="images/cool%20beans%20coffee.jpg" alt="Cool Beans logo" align="middle" width ="450" />
-            
-       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            </div>
+     
+        <div class="col-lg">  
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-30" src="images/coming_soon.jpg" alt="First slide">
@@ -109,23 +121,28 @@ Most recent revision: 1/13/2019
 </div>
            </div>
             </div>
+        </div>
             
-            
+            <div class="container-fluid">
             <article class="border" id="about-us" >
             <h2><em>About Us</em></h2>     
        <p style="font-family:sans-serif;">Cool Beans Coffee is a new coffee shop in Minneapolis, Minnesota, that aims to go above and beyond your typical coffee shop standards. Our coffee comes with a satisfaction guarantee, as we are confident you will be pleased. Along with coffee we have many different kinds of pastries and breakfast sandwiches to choose from, as well as many board games to play with friends and family while enjoyng your coffee. Come on in today, and mention reading this for a free coffee on us!</p>
             
             <div class="clear-float"></div>
             </article>
+                </div>
 
-            </section>
-            
+           
+      <div class="container-fluid">    
     <footer>
        <p>555 Brew St. Minneapolis, Minnesota 55422</p>
         <p>(612) 555-2345</p>
         <p>&copy; 2019 Cool Beans Coffee. All rights reserved.</p>
     </footer>
+          </div> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
-    <script src="js/bootstrap.bundle.js"></script>
     
 </html>
