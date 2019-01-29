@@ -2,23 +2,26 @@
 <!--
 Name: Alec Persson
 Date Created: 1/12/2019
-Most recent revision: 1/13/2019
+Most recent revision: 1/29/2019
 -->
 <html lang="en">
+
 <head>
-     <!-- Required meta tags -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cool Beans Coffee</title>
-      <!-- Bootstrap CSS --> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <!-- My CSS -->
-    <link href="css/restaurantStyles.css"rel="stylesheet" type="text/css" />
-    </head>
-    <style>
-          
-        label, fieldset{
+    <link href="css/restaurantStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+
+    label, fieldset{
     font-size: 1.1em;
 }
 
@@ -79,96 +82,126 @@ textarea {
            img {
             border-radius: 50%;
             display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
+            margin-left: 100px;
+            margin-right: 100px;
+            width: 70%;
         }
     
     </style>
 
-    <body>
-        <main> </main>
-        <header><h1><FONT FACE="helvetica">Cool Beans Coffee</FONT></h1></header>
-        
-       
-        <nav>
-         
-          <ul class="nav nav-pills">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-                <li class="nav-item"><a class="nav-link" href="menu2.html">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact2.html">Contact Us</a></li>
-            </ul>
-            <div class="clear-float"></div>
-           
-        </nav>
-        
-        <section>
-            <div class="container-fluid">
-            <img src="images/beans-brown-coffee-9186.jpg" width ="450" />
-         
-        <article class="border" id="contact2">
-            <h2><em>Contact Us</em></h2>
-          
-         <form action="submit.html"method="POST">
-        <label for="Name"><b>Name:</b></label>
-            <br />
-            <input type="text" id="Name"name="Name">
-            <br />
-            <label for="email"><b>Email:</b></label>
-            <br />
-            <input type="text" id="email"name="email">
-            <br />
-            <label for="phone"><b>Phone Number:</b></label>
-            <br />
-            <input type="text" id="phone" name="phone"> <br />
-            <label for="reason"><b>Reason for Inquiry:</b></label>
-            <br />
-            <select id="reason" name="reason">
-                <option value="default" selected>Catering</option>
-                <option value="private">Private Party</option>
-                <option value="feedback">Feedback</option>
-                <option value="other">Other</option>
-            </select>
-             
-                <p><label for="info"><b>Additional Information</b></label><br />
-<textarea id="info" name="info"></textarea>
-             <input type="submit" name="submit" value="Submit"></p>
-                       
-<fieldset>
-<legend><b>Have you been to Cool Beans Coffee before?</b></legend><br />
-<input type="radio" id="choice1" name="questionnaire" value="no">
-<label for="choice1">No</label><br />
-<input type="radio" id="choice2" name="questionnaire" value="yes">
-<label for="choice2">Yes</label><br />
-</fieldset>
-            
-<fieldset>
-<legend><b>Best days to contact you:</b></legend><br />
-<input type="checkbox" id="monday" name="interest" value="monday"> 
-<label for="monday">M</label><br />
-<input type="checkbox" id="tuesday" name="interest" value="tuesday">
-<label for="tuesday">T</label>
-<input type="checkbox" id="wednesday" name="wednesday" value="database">
-<label for="database">W</label>
-    <input type="checkbox" id="thursday" name="thursday" value="database">
-<label for="database">Th</label>
-    <input type="checkbox" id="friday" name="friday" value="database">
-<label for="database">F</label><br />
-</fieldset>
-  
-         
-        
-        </form>
-            </article>
+<body>
+    <div class="container-fluid">
+        <header class="jumbotron">
+            <h1>
+                Cool Beans Coffee</h1>
+            <h2 class="font-italic">The best coffee in town.</h2>
+            <h3 class="text-right mt-5">New location in Denver Colorado opening soon!</h3>
+        </header>
+    </div>
+    <nav>
+        <a class="btn badge-pill" href="index.html"><i class="fas fa-home"></i></a>
+        <a class="btn badge-pill" href="menu2.html">Menu</a>
+        <a class="btn badge-pill" href="contact2.html">Contact Us</a>
+    </nav>
+
+    <p>
+    </p>
+
+    <noscript>
+        <div class="error message">
+            We're sorry but our site <strong>requires</strong> JavaScript.
+        </div>
+    </noscript>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello coffee lovers!</h1>
+            <p class="lead">Ask about our rewards program to start getting free coffee today! Stay warm out there with
+                a fresh cup of our seasonal Pumpkin Spice Latte. It will be gone before you know it, so stop in soon!</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md col-sm"></div>
+                <figure><img src="images/beans-brown-coffee-9186.jpg" class="img-fluid" /> </figure>
             </div>
-        </section>
-        <footer>
-             <p>555 Brew St. Minneapolis, Minnesota 55422</p>
+            <div class="col-lg col-md col-sm">
+                <h2><em>Contact Us</em></h2>
+                <p style="font-family:sans-serif;">Our door is always open here at Cool Beans Coffee. If there is ever
+                    something you wish to discuss with us, we'd like to hear it! Fill out the form below and a
+                    representative of ours will get back to you as quickly as possible.</p>
+            </div>
+            <div class="container">
+                <div class="col-lg col-md">
+
+                    <form action="submit.html" method="POST">
+                        <label for="Name"><b>Name:</b></label>
+                        <br />
+                        <input type="text" id="Name" name="Name">
+                        <br />
+                        <label for="email"><b>Email:</b></label>
+                        <br />
+                        <input type="text" id="email" name="email">
+                        <br />
+                        <label for="phone"><b>Phone Number:</b></label>
+                        <br />
+                        <input type="text" id="phone" name="phone"> <br />
+                        <label for="reason"><b>Reason for Inquiry:</b></label>
+                        <br />
+                        <select id="reason" name="reason">
+                            <option value="default" selected>Catering</option>
+                            <option value="private">Private Party</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <p><label for="info"><b>Additional Information</b></label><br />
+                            <textarea id="info" name="info"></textarea>
+                            <input type="submit" name="submit" value="Submit"></p>
+
+                        <fieldset>
+                            <legend><b>Have you been to Cool Beans Coffee before?</b></legend><br />
+                            <input type="radio" id="choice1" name="questionnaire" value="no">
+                            <label for="choice1">No</label><br />
+                            <input type="radio" id="choice2" name="questionnaire" value="yes">
+                            <label for="choice2">Yes</label><br />
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><b>Best days to contact you:</b></legend><br />
+                            <input type="checkbox" id="monday" name="interest" value="monday">
+                            <label for="monday">M</label><br />
+                            <input type="checkbox" id="tuesday" name="interest" value="tuesday">
+                            <label for="tuesday">T</label>
+                            <input type="checkbox" id="wednesday" name="wednesday" value="database">
+                            <label for="database">W</label>
+                            <input type="checkbox" id="thursday" name="thursday" value="database">
+                            <label for="database">Th</label>
+                            <input type="checkbox" id="friday" name="friday" value="database">
+                            <label for="database">F</label><br />
+                        </fieldset>
+
+
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>555 Brew St. Minneapolis, Minnesota 55422</p>
         <p>(612) 555-2345</p>
         <p>&copy; 2019 Cool Beans Coffee. All rights reserved.</p>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    </body>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

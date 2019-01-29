@@ -1,7 +1,7 @@
 /*
 Creator: Alec Persson
 Date created: 1/16/2019
-Date last modified:
+Date last modified: 1/29/2019
 */
 body {
     background-color: #FFE4C4;
@@ -10,15 +10,14 @@ body {
     max-width: 900px;
     margin: 0 auto;
 }
-header, footer {
+ footer {
     background-color: #5b7d87;
     color: #fef9ff;
     text-align: center;
     padding: 30px 10px 20px 10px;
 }
-header {
-    height: 120px;
-}
+
+
 footer {
     height: 150px;
 }
@@ -26,13 +25,26 @@ h1 {
     font-size: 2.5em;
 }
 .jumbotron {
-    background: transparent;
+    background: transparent
 }
 nav {
     border-top: 3px solid #546a7b;
     border-bottom: 3px solid #546a7b;
     margin-top: 4px;
 }
+ nav {
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+    nav .btn {
+        background-color: #5b7d87;
+        color: #fef9ff;
+    }
+    nav .btn:hover {
+        font-weight: bold;
+    }
 
 nav a {
     background-color: #5b7d87;
