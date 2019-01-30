@@ -53,10 +53,8 @@ nav a {
     border: thin solid #0d1f2d;
     text-decoration: none;
     text-align: center;
-    display: block;
     margin: 20px;
     min-width: 80px;
-    float: left;
 }
 nav a:visited {
     color: #e4c3ad;
@@ -140,5 +138,5 @@ article#menu ul {
             padding-right:0;
     }
 }
-.carousel('cycle')
+
 
