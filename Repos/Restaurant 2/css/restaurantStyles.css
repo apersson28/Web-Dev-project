@@ -95,6 +95,7 @@ nav ul li {
 
         ul li {
             margin: 1px;
+            list-style: none;
                 }
            img {
             border-radius: 50%;
